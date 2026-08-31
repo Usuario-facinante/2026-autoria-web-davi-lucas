@@ -11,9 +11,9 @@ header {
     margin: 3px;
 }
 main {
-    gap: 20px;
-    background-color: bisque;
-    
+    margin: 20px;
+    background-color: beige;
+
 }
 header h1 {
     color: red;
@@ -23,6 +23,7 @@ header h1 {
 section h2 {
     color: gray;
     height: auto;
+    text-align: center;
 }
 footer h1 {
     text-align:center;

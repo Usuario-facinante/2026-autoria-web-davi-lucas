@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SEMESTRE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <h1>O que aprendemos neste semestre</h1>
+            <p>Neste site, irei mostrar o que de facto aprendemos neste semestre. Neste semestre aprendemos fundamentos básicos do HTML, CSS e além disso aprendemos a utilizar o Git e o GitHub, é exatamente isto que iremos observar neste arquivo.</p>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div class = "box" id = "box-1">
+                <h2>HTML</h2>  
+                <p>Para começar, gostaria de ressaltar que antes de fazermos coisas incríveis primeiro precisamos entrar em algum programa para que algo reconheça o html, seja pelo Visual Studio Code ou simplesmente por outro arquivo, precisamos de algo para que ele saiba exatamente o que estamos a escrever. Nós aprendemos que podemos escrever pelo Visual Studio Code como já havia ressaltado, pelo sublime ou até mesmo pelo bloco de notas, o mais importante é que seja um programa de texto para assim podermos escrever e o programa <strong>identificar</strong>.</p><br>
+                <p>O programa identifica através do doctype html, para qualquer tag que colocarmos precisamos dos símbolos de maior e menor porque assim o programa vê o que é texto e o que é tag, faz parte da linguagem em si. O HTML é uma linguagem para colocarmos em sites, todos os sites têm algo do género obrigatoriamente. As tags são basicamente o que queremos colocar nas páginas, as mais importantes são: "doctype html" e "html" para o arquivo saber que se trata de um arquivo html e onde ele começa. "head" e "body" para colocar as tags mais relevantes, onde no head (cabeça) é tudo aquilo que não está completamente visível no site mas é relevante como: título, imagem do site, metadados etc. Há diversas outras tags como a de parágrafo, botão, aprimorar texto, colocar link de outros sites, colocar imagens, entre outros. Aprendemos as coisas mais importantes do html, o básico para conseguir desenvolver um site com maestria. Claro que existem outras como fazer listas, tabelas ou outros, mas isso é o mais relevante em si.</p>
+                <h2>CSS</h2>   
+                <p>O CSS basicamente é a estilização do site: mudança de cores, aprimoração de itens entre outros. Basicamente existem 3 tipos: interno, externo e inline. O inline é basicamente dentro de uma tag, ex: <code>&lt;tag style="color: blue;"&gt;</code>. O style está basicamente a chamar alguns fatores do css para fazer uma determinada coisa, o que desejas colocar nesta tag deve estar entre aspas para o html identificar o que queres neste arquivo.</p>
+                <p>O externo basicamente é noutro arquivo que tem geralmente a forma de: <br>
+                <code>tag { color: blue; }</code> <br>
+                Para chamar o <i>CSS</i> para o HTML nós temos que ir no código html e colocar no head: <code>rel="stylesheet" href="nome_do_css.css"</code> para assim o programa identificar o css.</p>
+                <p>O interno também se usa no head, mas basicamente ele fica lá, ele tem o formato de:<br>
+                <code>&lt;style&gt; /* o que desejas */ &lt;/style&gt;</code><br>
+                Basicamente precisas de usar cada um em determinadas coisas pois é mais favorável em diferentes situações.</p>
+            </div>
+            <div class = "box" id = "box-2">
+                <h2>GitHub</h2>
+                <p>O GitHub basicamente serve para colocar todos os arquivos num repositório, em si, é o mais útil e usado pela sua praticidade. Podemos colocar diversos arquivos dentro de um repositório na nuvem para assim não perder nada, podemos até mesmo utilizar o GitHub com repositório compartilhado para assim ter mais praticidade para trabalhar, fazer trabalhos académicos etc.</p>
+
+                <h2>Git</h2>
+                <p>O Git serve praticamente para baixar, salvar ou até mesmo jogar arquivos dentro do GitHub ou na tua máquina, ele é muito útil porque podes até mesmo manipular os teus arquivos sem internet. Em si, neste bimestre aprendemos a como dar commit (salvar) e jogar no GitHub num repositório através de:</p>
+                <ol>
+                    <li>cd downloads</li>
+                    <li>git clone (URL)</li>
+                    <li>cd (Nome do repositório)</li>
+                    <li>git add .</li>
+                    <li>git commit -m "mensagem do save"</li>
+                    <li>git push</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <article>
+            <p>Basicamente o <code>cd</code> serve para entrar numa pasta no terminal, o <code>git clone</code> para clonar/baixar no teu PC o repositório (os arquivos dele), <code>cd</code> para entrar no teu arquivo, <code>git add .</code> para adicionar tudo ao teu commit, <code>git commit</code> para salvar e <code>-m</code> para mandar uma mensagem do que modificaste no teu arquivo e o <code>push</code> serve para jogares para o GitHub.</p>
+        </article>
+        <nav>
+            <a href="https://github.com" >Link para o GitHub</a><br>
+            <a href="https://code.visualstudio.com">Link para o Visual Studio Code</a>
+        </nav>
+        <h1>FIM</h1>
+    </footer>
+</body>
+</html>
